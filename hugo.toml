@@ -1,0 +1,38 @@
+baseURL = "https://hiddenlayer.tech/"
+languageCode = "en-us"
+title = "HiddenLayer"
+theme = "PaperMod"
+[pagination]
+  pagerSize = 10
+
+[params]
+  author = "Alex Rodrigues"
+  ShowReadingTime = true
+  ShowBreadCrumbs = true
+  ShowPostNavLinks = true
+  defaultTheme = "dark"
+
+[menu]
+  [[menu.main]]
+    identifier = "missions"
+    name = "Missions"
+    url = "/missions/"
+    weight = 1
+
+  [[menu.main]]
+    identifier = "inventory"
+    name = "Inventory"
+    url = "/inventory/"
+    weight = 2
+
+  [[menu.main]]
+    identifier = "field-log"
+    name = "Field Log"
+    url = "/field-log/"
+    weight = 3
+
+  [[menu.main]]
+    identifier = "side-quests"
+    name = "Side Quests"
+    url = "/side-quests/"
+    weight = 4
