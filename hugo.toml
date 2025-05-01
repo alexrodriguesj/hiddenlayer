@@ -1,38 +1,37 @@
 baseURL = "https://hiddenlayer.tech/"
 languageCode = "en-us"
 title = "HiddenLayer"
-theme = "PaperMod"
+theme = "hugo-clarity"
 [pagination]
   pagerSize = 10
 
 [params]
+  tagline = "Logs from an AI Engineer in the field"
+  description = "Fine-tuning, broken models, LLM debugging, and other sweet chaos"
   author = "Alex Rodrigues"
-  ShowReadingTime = true
-  ShowBreadCrumbs = true
-  ShowPostNavLinks = true
-  defaultTheme = "dark"
+  darkModeToggle = true
+  colorScheme = "auto"
+  dateFormat = "January 2, 2006"
+  customCSS = ["css/custom.css"]
 
 [menu]
-  [[menu.main]]
-    identifier = "missions"
-    name = "Missions"
-    url = "/missions/"
-    weight = 1
 
-  [[menu.main]]
-    identifier = "inventory"
-    name = "Inventory"
-    url = "/inventory/"
-    weight = 2
+[[menu.main]]
+  name = "Become an AI Expert"
+  url = "/Become an AI Expert/"
+  weight = 1
 
-  [[menu.main]]
-    identifier = "field-log"
-    name = "Field Log"
-    url = "/field-log/"
-    weight = 3
+[[menu.main]]
+  name = "Inventory"
+  url = "/inventory/"
+  weight = 2
 
-  [[menu.main]]
-    identifier = "side-quests"
-    name = "Side Quests"
-    url = "/side-quests/"
-    weight = 4
+[[menu.main]]
+  name = "Field Log"
+  url = "/field-log/"
+  weight = 3
+
+[[menu.main]]
+  name = "Side Quests"
+  url = "/side-quests/"
+  weight = 4

@@ -1,0 +1,14 @@
+<div class="subscribe-container">
+  <form id="subscribe-form" class="subscribe-form" onsubmit="handleSubscribe(event)">
+    <input type="email" id="subscribe-email" placeholder="Enter your email" required>
+    <button type="submit" class="subscribe-button">
+      <span class="default-text">Subscribe</span>
+      <span class="loading-text">
+        <svg class="spinner" viewBox="0 0 50 50">
+          <circle class="path" cx="25" cy="25" r="20" fill="none" stroke-width="5"></circle>
+        </svg>
+      </span>
+    </button>
+  </form>
+  <div id="subscribe-message" class="subscribe-message"></div>
+</div>

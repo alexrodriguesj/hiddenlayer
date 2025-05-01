@@ -5,6 +5,6 @@ draft: true
 tags: ["intro", "llm", "meta"]
 ---
 
-Welcome to the first mission log.
+Welcome to the first becomeAnAiExpert log.
 
 This is where I begin documenting my AI engineering journey, one model at a time.

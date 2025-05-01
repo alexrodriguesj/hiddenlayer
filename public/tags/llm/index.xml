@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Llm on HiddenLayer</title>
+    <link>http://localhost:56666/tags/llm/</link>
+    <description>Recent content in Llm on HiddenLayer</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 30 Apr 2025 22:00:00 +0000</lastBuildDate><atom:link href="http://localhost:56666/tags/llm/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hello, HiddenLayer</title>
+      <link>http://localhost:56666/becomeAnAIExpert/hello-hiddenlayer/</link>
+      <pubDate>Wed, 30 Apr 2025 22:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:56666/becomeAnAIExpert/hello-hiddenlayer/</guid>
+      <description>
+        
+          
+            &lt;p&gt;Welcome to the first becomeAnAiExpert log.&lt;/p&gt;
+&lt;p&gt;This is where I begin documenting my AI engineering journey, one model at a time.&lt;/p&gt;
+          
+          
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>

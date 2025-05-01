@@ -1,0 +1,5 @@
+{{ $class := .class }}
+<a class="nav_logo{{ with $class }} {{ . }}{{ end }}" href="{{ absLangURL "" }}">
+  <img src="/images/logo_light.png" alt="Hidden Layer" class="logo light-mode-logo">
+  <img src="/images/logo_dark.png" alt="Hidden Layer" class="logo dark-mode-logo">
+</a>

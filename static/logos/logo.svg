@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200" height="50" version="1.1" viewBox="0 0 200 50" xmlns="http://www.w3.org/2000/svg">
+ <g fill="currentColor">
+  <text x="10" y="35" font-family="Arial" font-size="24" font-weight="bold">Hidden Layer</text>
+  <circle cx="180" cy="25" r="15" fill="none" stroke="currentColor" stroke-width="2"/>
+  <circle cx="180" cy="25" r="8" fill="none" stroke="currentColor" stroke-width="2"/>
+  <circle cx="180" cy="25" r="3"/>
+ </g>
+</svg>
