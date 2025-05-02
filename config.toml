@@ -1,5 +1,5 @@
 # Site configuration
-baseURL = "https://example.com"
+baseURL = "https://hiddenlayer.tech"
 title = "Hidden Layer"
 theme = "hugo-clarity"
 defaultContentLanguage = "en"
