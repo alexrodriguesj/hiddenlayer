@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Career on Hidden Layer</title>
+    <link>http://localhost:1313/tags/career/</link>
+    <description>Recent content in Career on Hidden Layer</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 01 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/career/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Welcome to HiddenLayer</title>
+      <link>http://localhost:1313/become-an-ai-expert/welcome/</link>
+      <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/become-an-ai-expert/welcome/</guid>
+      <description>
+        
+          
+            &lt;h1 id=&#34;welcome-to-hiddenlayer&#34;&gt;Welcome to HiddenLayer&lt;/h1&gt;
+&lt;p&gt;This is &lt;strong&gt;HiddenLayer&lt;/strong&gt; — a space where I share, with total clarity and honesty, what it really means to work with Artificial Intelligence in 2025. Here, you won’t find LinkedIn buzzwords or empty hype. Instead, you’ll find:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;My journey as an AI engineer&lt;/li&gt;
+&lt;li&gt;Behind-the-scenes of real-world projects&lt;/li&gt;
+&lt;li&gt;Insane bugs&lt;/li&gt;
+&lt;li&gt;Tough architectural decisions&lt;/li&gt;
+&lt;li&gt;Lessons learned through hands-on experience&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;All of this from someone who’s spent years as a Data Scientist and chose to go deeper into the stack.&lt;/p&gt;
+          
+          
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>

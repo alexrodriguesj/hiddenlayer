@@ -1,0 +1,91 @@
+# Site configuration
+baseURL = "https://example.com"
+title = "Hidden Layer"
+theme = "hugo-clarity"
+defaultContentLanguage = "en"
+enableRobotsTXT = true
+enableEmoji = true
+enableGitInfo = true
+
+# Language settings
+[languages]
+  [languages.en]
+    languageName = 'English'
+    weight = 1
+
+# Theme parameters
+[params]
+author = "Alex Rodrigues"
+twitter = ""
+largeTwitterCard = false
+introDescription = "Kagle, software developer and AI researcher. Sharing insights about technology, programming, and artificial intelligence."
+numberOfTagsShown = 14
+fallBackOgImage = "images/thumbnail.png"
+codeMaxLines = 7
+codeLineNumbers = false
+logo = "images/hiddenlayer.png"
+logoHeight = "50"
+centerLogo = false
+headerLogo = true
+moveHeaderToFooter = false
+centerHeaderLogoWidth = "50px"
+mainSections = ["posts", "become-an-ai-expert"]
+figurePositionShow = false
+figurePositionLabel = "Figure"
+mobileNavigation = "left"
+enforceLightMode = false
+enforceDarkMode = false
+customCSS = ["css/custom.css"]
+customJS = ["js/custom.js"]
+enableSearch = true
+enableMathNotation = true
+numberOfRecentPosts = 8
+numberOfFeaturedPosts = 8
+dateFormat = "Jan 2, 2006"
+usePageBundles = true
+highlightjs = true
+headerSubtitle = "Tech insights and programming adventures"
+toc = true
+related = true
+
+# Main Menu
+[[menu.main]]
+name = "About"
+url = "/about/"
+weight = 1
+
+[[menu.main]]
+name = "Become an AI Expert"
+url = "/become-an-ai-expert/"
+weight = 2
+
+[[menu.main]]
+name = "Kaggle"
+url = "/kaggle/"
+weight = 3
+
+[[menu.main]]
+name = "Categories"
+url = "/categories/"
+weight = 4
+
+[[menu.main]]
+name = "Tags"
+url = "/tags/"
+weight = 5
+
+# Social Media Menu
+[[menu.social]]
+name = "github"
+url = "https://github.com/alexrodriguesj"
+weight = 1
+
+[[menu.social]]
+name = "linkedin"
+url = "https://www.linkedin.com/in/alexcrj/"
+weight = 2
+
+[[menu.social]]
+name = "medium"
+url = "https://medium.com/@alexrodriguesj"
+weight = 3

@@ -2,40 +2,52 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/missions/</loc>
-    <lastmod>2025-04-30T22:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2025-04-30T22:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/about/</loc>
-    <lastmod>2025-04-30T00:00:00+00:00</lastmod>
+    <lastmod>2025-05-01T00:42:57-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/ai-engineer/</loc>
+    <lastmod>2025-05-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/become-an-ai-expert/</loc>
+    <lastmod>2025-05-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/become-an-ai-expert/</loc>
+    <lastmod>2025-05-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/career/</loc>
+    <lastmod>2025-05-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2025-04-30T00:00:00+00:00</lastmod>
+    <lastmod>2025-05-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/general/</loc>
-    <lastmod>2025-04-30T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2025-05-01T00:42:57-03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/introduction/</loc>
-    <lastmod>2025-04-30T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2025-04-30T00:00:00+00:00</lastmod>
+    <lastmod>2025-05-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2025-04-30T00:00:00+00:00</lastmod>
+    <lastmod>2025-05-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/welcome/</loc>
-    <lastmod>2025-04-30T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/become-an-ai-expert/welcome/</loc>
+    <lastmod>2025-05-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/welcome/</loc>
-    <lastmod>2025-04-30T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/ai-llm-news/</loc>
   </url><url>
     <loc>http://localhost:1313/field-log/</loc>
+    <lastmod>2025-04-30T01:33:23-03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/inventory/</loc>
+    <lastmod>2025-04-30T01:33:23-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/kaggle/</loc>
+  </url><url>
+    <loc>http://localhost:1313/posts/</loc>
   </url><url>
     <loc>http://localhost:1313/side-quests/</loc>
+    <lastmod>2025-04-30T01:33:23-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/missions/</loc>
+    <lastmod>2025-05-01T00:42:57-03:00</lastmod>
   </url>
 </urlset>

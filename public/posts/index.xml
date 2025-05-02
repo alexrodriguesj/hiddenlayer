@@ -1,37 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on HiddenLayer</title>
+    <title>Hidden Layer</title>
     <link>http://localhost:1313/posts/</link>
-    <description>Recent content in Posts on HiddenLayer</description>
+    <description>Recent content on Hidden Layer</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Wed, 30 Apr 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Welcome to Hidden Layer</title>
-      <link>http://localhost:1313/posts/welcome/</link>
-      <pubDate>Wed, 30 Apr 2025 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/posts/welcome/</guid>
-      <description>
-        
-          
-            &lt;p&gt;Welcome to Hidden Layer! This is where I&amp;rsquo;ll be sharing my thoughts, experiences, and insights about technology, programming, and artificial intelligence.&lt;/p&gt;
-&lt;h2 id=&#34;what-to-expect&#34;&gt;What to Expect&lt;/h2&gt;
-&lt;p&gt;In this blog, you&amp;rsquo;ll find:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;strong&gt;Technical Tutorials&lt;/strong&gt;: Step-by-step guides on various programming topics&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;AI Insights&lt;/strong&gt;: Discussions about artificial intelligence and machine learning&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Best Practices&lt;/strong&gt;: Software development patterns and practices&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Project Showcases&lt;/strong&gt;: Interesting projects and their implementations&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2 id=&#34;stay-connected&#34;&gt;Stay Connected&lt;/h2&gt;
-&lt;p&gt;Make sure to subscribe to stay updated with the latest posts. You can also follow me on:&lt;/p&gt;
-          
-          
-        
-      </description>
-    </item>
-    
+    <language>en</language><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

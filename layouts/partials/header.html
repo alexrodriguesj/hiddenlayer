@@ -1,7 +1,8 @@
 {{- $params := .Site.Params }}
 {{- $centerLogo := $params.centerLogo }}
 {{ $logo := $params.logo }}
-<header class="nav_header" >
+{{ $mainSections := .Site.Params.mainSections }}
+<header class="nav_header header" >
   <nav class="nav">
     {{- if $centerLogo }}
       {{- partial "custom-logo" (dict "class" "nav_hide") }}
@@ -48,6 +49,11 @@
             </svg>
           </a>
         </div>
+        {{ if .Site.Params.headerLogo }}
+          <div class="avatar-container">
+            <img src="/images/alex.png" alt="Alex Rodrigues" class="avatar-pic">
+          </div>
+        {{ end }}
         {{- partialCached "mode" . }}
       </div>
     </div>
