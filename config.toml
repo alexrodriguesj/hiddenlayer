@@ -6,7 +6,6 @@ defaultContentLanguage = "en"
 enableRobotsTXT = true
 enableEmoji = true
 enableGitInfo = true
-googleAnalytics = "G-H67FNZTVPB" 
 
 # Language settings
 [languages]
@@ -17,6 +16,7 @@ googleAnalytics = "G-H67FNZTVPB"
 # Theme parameters
 [params]
 author = "Alex Rodrigues"
+ga_analytics = "G-H67FNZTVPB"
 twitter = ""
 largeTwitterCard = false
 introDescription = "Tech enthusiast, software developer, and AI researcher. Sharing insights about technology, programming, and artificial intelligence."
