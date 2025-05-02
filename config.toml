@@ -6,6 +6,7 @@ defaultContentLanguage = "en"
 enableRobotsTXT = true
 enableEmoji = true
 enableGitInfo = true
+googleAnalytics = "G-H67FNZTVPB" 
 
 # Language settings
 [languages]
