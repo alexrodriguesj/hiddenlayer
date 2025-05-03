@@ -2,13 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/about/</loc>
-    <lastmod>2025-05-01T21:43:43-03:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/tags/ai-engineer/</loc>
-    <lastmod>2025-05-01T21:43:43-03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/become-an-ai-expert/</loc>
     <lastmod>2025-05-01T21:43:43-03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/become-an-ai-expert/</loc>
@@ -23,10 +17,25 @@
     <loc>http://localhost:1313/</loc>
     <lastmod>2025-05-01T21:43:43-03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/introduction/</loc>
-    <lastmod>2025-05-01T21:43:43-03:00</lastmod>
+    <loc>http://localhost:1313/tags/meme/</loc>
+    <lastmod>2025-05-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/memes/</loc>
+    <lastmod>2025-05-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2025-05-01T21:43:43-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/become-an-ai-expert/ai-engineer-meme_01/</loc>
+    <lastmod>2025-05-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/about/</loc>
+    <lastmod>2025-05-01T21:43:43-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/become-an-ai-expert/</loc>
+    <lastmod>2025-05-01T21:43:43-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/introduction/</loc>
     <lastmod>2025-05-01T21:43:43-03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/become-an-ai-expert/welcome/</loc>
@@ -52,5 +61,9 @@
   </url><url>
     <loc>http://localhost:1313/missions/</loc>
     <lastmod>2025-05-01T00:42:57-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/career/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/satire/</loc>
   </url>
 </urlset>

@@ -22,6 +22,7 @@ largeTwitterCard = false
 introDescription = "Tech enthusiast, software developer, and AI researcher. Sharing insights about technology, programming, and artificial intelligence."
 numberOfTagsShown = 14
 fallBackOgImage = "images/thumbnail.png"
+imagesDir = "images"
 codeMaxLines = 7
 codeLineNumbers = false
 mainSections = ["posts", "become-an-ai-expert", "kaggle", "ai-llm-news"]

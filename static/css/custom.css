@@ -382,6 +382,61 @@ body {
     color: var(--link-hover-color);
 }
 
+/* Post image styling */
+.post img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 2rem auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.post figure {
+    margin: 2rem auto;
+    text-align: center;
+}
+
+.post figure img {
+    margin: 0 auto;
+}
+
+.post figure figcaption {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    color: var(--text-color);
+    opacity: 0.8;
+}
+
+/* Blog Image Styling */
+.blog-figure {
+    margin: 2rem auto;
+    text-align: center;
+    max-width: 100%;
+}
+
+.blog-image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.blog-figure figcaption {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    color: var(--text-color);
+    opacity: 0.8;
+    font-style: italic;
+}
+
+/* Dark mode adjustments */
+[data-mode="dim"] .blog-image {
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+}
+
 /* Responsive title size */
 @media (max-width: 768px) {
     .post_title {
