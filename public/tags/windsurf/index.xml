@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Windsurf on Hidden Layer</title>
+    <link>http://localhost:1313/tags/windsurf/</link>
+    <description>Recent content in Windsurf on Hidden Layer</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 05 May 2025 15:24:18 -0300</lastBuildDate><atom:link href="http://localhost:1313/tags/windsurf/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI Weekly – May 5, 2025</title>
+      <link>http://localhost:1313/ai-llm-news/ai-weekly-may-5-2025/</link>
+      <pubDate>Mon, 05 May 2025 15:24:18 -0300</pubDate>
+      
+      <guid>http://localhost:1313/ai-llm-news/ai-weekly-may-5-2025/</guid>
+      <description>
+        
+          
+            &lt;p&gt;This week brings pivotal advancements in the AI landscape, from redefining developer roles to enhancing search experiences and bolstering national security.&lt;/p&gt;
+&lt;h2 id=&#34;1-developers-evolve-into-builders-in-the-ai-era&#34;&gt;1. Developers Evolve into &amp;lsquo;Builders&amp;rsquo; in the AI Era&lt;/h2&gt;
+
+
+
+
+&lt;figure class=&#34;blog-figure&#34;&gt;
+    &lt;img src=&#34;http://localhost:1313/images/ai-weekly-may-5-2025_01.png&#34; alt=&#34;Developers evolving into builders in the AI era&#34; class=&#34;blog-image&#34; loading=&#34;lazy&#34;&gt;
+    
+&lt;/figure&gt;
+
+&lt;p&gt;Varun Mohan, CEO of Windsurf (formerly Codeium), envisions a transformative shift where traditional software developers become &amp;ldquo;builders.&amp;rdquo; This change is driven by AI&amp;rsquo;s capability to democratize software creation, allowing individuals to customize tools using AI assistants, even without formal coding knowledge. Windsurf, an AI coding platform, has gained significant traction, raising $243 million and potentially being acquired by OpenAI for around $3 billion. Mohan emphasizes the rise of &amp;ldquo;vibe coding,&amp;rdquo; a method of generating code via AI prompts that redefines development processes by vastly improving speed and productivity. This evolution encourages a culture of continuous learning and innovation fueled by AI capabilities.&lt;/p&gt;
+          
+          
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>
