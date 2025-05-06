@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Research Paper on Hidden Layer</title>
+    <link>http://localhost:1313/tags/research-paper/</link>
+    <description>Recent content in Research Paper on Hidden Layer</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 06 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/research-paper/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Attention is All You Need: The Paper that Changed AI</title>
+      <link>http://localhost:1313/papers/attention-is-all-you-need/</link>
+      <pubDate>Tue, 06 May 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/papers/attention-is-all-you-need/</guid>
+      <description>
+        
+          
+            &lt;h1 id=&#34;attention-is-all-you-need&#34;&gt;Attention is All You Need&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Authors&lt;/strong&gt;: Ashish Vaswani, Noam Shazeer, Niki Parmar et al.&lt;br&gt;
+&lt;strong&gt;Publication Date&lt;/strong&gt;: June 2017&lt;br&gt;
+&lt;strong&gt;Published In&lt;/strong&gt;: NeurIPS 2017&lt;br&gt;
+&lt;strong&gt;Number of Citations&lt;/strong&gt;: 80,000+&lt;br&gt;
+&lt;strong&gt;Link to Paper&lt;/strong&gt;: &lt;a href=&#34;https://arxiv.org/abs/1706.03762&#34;&gt;arXiv.org/attention&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;table-of-contents&#34;&gt;Table of Contents&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://localhost:1313/papers/attention-is-all-you-need/#brief-description&#34;&gt;Brief Description&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://localhost:1313/papers/attention-is-all-you-need/#main-topic&#34;&gt;Main Topic&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://localhost:1313/papers/attention-is-all-you-need/#key-concepts&#34;&gt;Key Concepts&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://localhost:1313/papers/attention-is-all-you-need/#1-self-attention-mechanism&#34;&gt;1. Self-Attention Mechanism&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://localhost:1313/papers/attention-is-all-you-need/#2-multi-head-attention&#34;&gt;2. Multi-Head Attention&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://localhost:1313/papers/attention-is-all-you-need/#3-position-wise-feed-forward-networks&#34;&gt;3. Position-wise Feed-Forward Networks&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://localhost:1313/papers/attention-is-all-you-need/#4-positional-encoding&#34;&gt;4. Positional Encoding&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://localhost:1313/papers/attention-is-all-you-need/#methodology-and-experiments&#34;&gt;Methodology and Experiments&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://localhost:1313/papers/attention-is-all-you-need/#results-and-practical-impact&#34;&gt;Results and Practical Impact&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://localhost:1313/papers/attention-is-all-you-need/#limitations&#34;&gt;Limitations&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://localhost:1313/papers/attention-is-all-you-need/#references-and-related-work&#34;&gt;References and Related Work&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://localhost:1313/papers/attention-is-all-you-need/#core-references-cited-by-authors&#34;&gt;Core References&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://localhost:1313/papers/attention-is-all-you-need/#subsequent-influential-work-inspired-by-this-paper&#34;&gt;Subsequent Influential Work&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://localhost:1313/papers/attention-is-all-you-need/#conclusion-and-takeaways&#34;&gt;Conclusion and Takeaways&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://localhost:1313/papers/attention-is-all-you-need/#key-takeaways&#34;&gt;Key Takeaways&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://localhost:1313/papers/attention-is-all-you-need/#why-this-paper-still-matters&#34;&gt;Why This Paper Still Matters&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://localhost:1313/papers/attention-is-all-you-need/#thanks-for-reading&#34;&gt;Thanks for Reading&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;brief-description&#34;&gt;Brief Description&lt;/h2&gt;
+&lt;p&gt;This seminal paper introduced the Transformer architecture, which relies entirely on attention mechanisms, revolutionizing natural language processing and laying the foundation for modern generative AI. The architecture has become the backbone of models like GPT, BERT, and their successors.&lt;/p&gt;
+          
+          
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>
