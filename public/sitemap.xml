@@ -2,32 +2,47 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/tags/attention/</loc>
-    <lastmod>2025-05-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/papers/attention-is-all-you-need/</loc>
-    <lastmod>2025-05-06T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/tags/ai/</loc>
+    <lastmod>2025-05-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2025-05-06T00:00:00+00:00</lastmod>
+    <lastmod>2025-05-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/data-science/</loc>
+    <lastmod>2025-05-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/kaggle/first-steps-on-kaggle/</loc>
+    <lastmod>2025-05-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2025-05-06T00:00:00+00:00</lastmod>
+    <lastmod>2025-05-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/papers/</loc>
-    <lastmod>2025-05-06T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/categories/kaggle/</loc>
+    <lastmod>2025-05-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/papers/</loc>
-    <lastmod>2025-05-06T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/tags/kaggle/</loc>
+    <lastmod>2025-05-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/research-paper/</loc>
-    <lastmod>2025-05-06T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/tags/ml/</loc>
+    <lastmod>2025-05-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2025-05-06T00:00:00+00:00</lastmod>
+    <lastmod>2025-05-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/attention/</loc>
+    <lastmod>2025-05-06T14:48:29-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/papers/attention-is-all-you-need/</loc>
+    <lastmod>2025-05-06T14:48:29-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/papers/</loc>
+    <lastmod>2025-05-06T14:48:29-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/research-paper/</loc>
+    <lastmod>2025-05-06T14:48:29-03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/transformers/</loc>
-    <lastmod>2025-05-06T00:00:00+00:00</lastmod>
+    <lastmod>2025-05-06T14:48:29-03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/ai--llm-news/</loc>
     <lastmod>2025-05-05T15:42:20-03:00</lastmod>
@@ -97,5 +112,10 @@
   </url><url>
     <loc>http://localhost:1313/missions/</loc>
     <lastmod>2025-05-01T00:42:57-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/getting-started/</loc>
+  </url><url>
+    <loc>http://localhost:1313/papers/</loc>
+    <lastmod>2025-05-06T14:48:29-03:00</lastmod>
   </url>
 </urlset>
