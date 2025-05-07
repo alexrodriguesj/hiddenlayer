@@ -4,7 +4,7 @@ date: 2025-05-07
 draft: false
 description: "A beginner-friendly guide to exploring Kaggle, learning from real AI challenges, and joining a global data science community."
 categories: ["Kaggle"]
-tags: ["kaggle", "ai", "ml", "data science"]
+tags: ["kaggle"]
 readingTime: 3
 ---
 
