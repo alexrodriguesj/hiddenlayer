@@ -6,7 +6,58 @@
     <description>Recent content on Hidden Layer</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 07 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 08 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The AI Engineer Journey: A Modern Overview</title>
+      <link>http://localhost:1313/become-an-ai-expert/ai-engineer-journey/</link>
+      <pubDate>Thu, 08 May 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/become-an-ai-expert/ai-engineer-journey/</guid>
+      <description>
+        
+          
+            &lt;h1 id=&#34;the-ai-engineer-journey-a-modern-overview&#34;&gt;The AI Engineer Journey: A Modern Overview&lt;/h1&gt;
+
+
+
+
+&lt;figure class=&#34;blog-figure&#34;&gt;
+    &lt;img src=&#34;http://localhost:1313/images/ai-engineer-journey.png&#34; alt=&#34;AI Engineer Journey&#34; class=&#34;blog-image&#34; loading=&#34;lazy&#34;&gt;
+    
+&lt;/figure&gt;
+
+&lt;h2 id=&#34;table-of-contents&#34;&gt;Table of Contents&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://localhost:1313/become-an-ai-expert/ai-engineer-journey/#why-ai-engineering-now&#34;&gt;Why AI Engineering Now?&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://localhost:1313/become-an-ai-expert/ai-engineer-journey/#from-data-scientist-to-ai-engineer&#34;&gt;From Data Scientist to AI Engineer&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://localhost:1313/become-an-ai-expert/ai-engineer-journey/#the-rise-of-systems-over-notebooks&#34;&gt;The Rise of Systems Over Notebooks&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://localhost:1313/become-an-ai-expert/ai-engineer-journey/#why-engineering-matters-more-than-ever&#34;&gt;Why Engineering Matters More Than Ever&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://localhost:1313/become-an-ai-expert/ai-engineer-journey/#what-makes-ai-engineering-unique&#34;&gt;What Makes AI Engineering Unique?&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://localhost:1313/become-an-ai-expert/ai-engineer-journey/#you-design-systems-not-just-predictions&#34;&gt;You Design Systems, Not Just Predictions&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://localhost:1313/become-an-ai-expert/ai-engineer-journey/#real-stories-code-bugs-and-architecture&#34;&gt;Real Stories, Code, Bugs, and Architecture&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://localhost:1313/become-an-ai-expert/ai-engineer-journey/#key-pillars-of-ai-engineering-the-journey-ahead&#34;&gt;Key Pillars of AI Engineering&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://localhost:1313/become-an-ai-expert/ai-engineer-journey/#weekly-deep-dives-into-each-pillar&#34;&gt;Weekly Deep Dives into Each Pillar&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://localhost:1313/become-an-ai-expert/ai-engineer-journey/#a-practical-honest-path--not-a-buzzword-tour&#34;&gt;A Practical, Honest Path&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://localhost:1313/become-an-ai-expert/ai-engineer-journey/#conclusion&#34;&gt;Conclusion&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://localhost:1313/become-an-ai-expert/ai-engineer-journey/#thanks-for-reading&#34;&gt;Thanks for Reading&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;why-ai-engineering-now&#34;&gt;Why AI Engineering Now?&lt;/h2&gt;
+&lt;p&gt;The field of artificial intelligence has evolved rapidly — from academic research and isolated PoCs to full-scale systems powering real products. In this transition, a new role emerged: the AI Engineer. This isn’t just a rebranding of the Data Scientist or ML Engineer, but a natural response to the growing complexity of deploying, monitoring, and scaling AI systems in the wild. &lt;strong&gt;The world no longer needs just model accuracy, it needs models that ship.&lt;/strong&gt;&lt;/p&gt;
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>First Steps on Kaggle: a friendly guide to getting started with Practical AI</title>
       <link>http://localhost:1313/kaggle/first-steps-on-kaggle/</link>

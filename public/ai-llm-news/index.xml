@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Hidden Layer</title>
+    <title>AI &amp; LLM News on Hidden Layer</title>
     <link>http://localhost:1313/ai-llm-news/</link>
-    <description>Recent content on Hidden Layer</description>
+    <description>Recent content in AI &amp; LLM News on Hidden Layer</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language><atom:link href="http://localhost:1313/ai-llm-news/index.xml" rel="self" type="application/rss+xml" />
     <item>

@@ -4,7 +4,7 @@ date: 2025-05-05T15:24:18-03:00
 draft: false
 description: "From developers becoming AI builders to Google's AI Search and chip regulation, this week's transformative developments in AI."
 tags: ["AI News", "Windsurf", "Google", "AI Chips"]
-categories: ["AI & LLM News"]
+categories: ["ai-llm-news"]
 readingTime: "7"
 ---
 

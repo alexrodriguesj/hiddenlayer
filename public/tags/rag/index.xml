@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rag on Hidden Layer</title>
+    <link>http://localhost:1313/tags/rag/</link>
+    <description>Recent content in Rag on Hidden Layer</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 08 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/rag/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The AI Engineer Journey: A Modern Overview</title>
+      <link>http://localhost:1313/become-an-ai-expert/ai-engineer-journey/</link>
+      <pubDate>Thu, 08 May 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/become-an-ai-expert/ai-engineer-journey/</guid>
+      <description>
+        
+          
+            &lt;h1 id=&#34;the-ai-engineer-journey-a-modern-overview&#34;&gt;The AI Engineer Journey: A Modern Overview&lt;/h1&gt;
+&lt;h2 id=&#34;why-ai-engineering-now&#34;&gt;Why AI Engineering Now?&lt;/h2&gt;
+&lt;p&gt;The field of artificial intelligence has evolved rapidly — from academic research and isolated PoCs to full-scale systems powering real products. In this transition, a new role emerged: the AI Engineer. This isn’t just a rebranding of the Data Scientist or ML Engineer, but a natural response to the growing complexity of deploying, monitoring, and scaling AI systems in the wild. The world no longer needs just model accuracy — it needs models that ship.&lt;/p&gt;
+          
+          
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>
