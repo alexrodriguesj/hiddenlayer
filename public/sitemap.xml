@@ -2,38 +2,62 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/tags/ai-engineer/</loc>
-    <lastmod>2025-05-09T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/tags/ai-news/</loc>
+    <lastmod>2025-05-12T16:13:43-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/ai-llm-news/ai-weekly-may-12-2025/</loc>
+    <lastmod>2025-05-12T16:13:43-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/ai-llm-news/</loc>
+    <lastmod>2025-05-12T16:13:43-03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2025-05-09T00:00:00+00:00</lastmod>
+    <lastmod>2025-05-12T16:13:43-03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/deploy/</loc>
-    <lastmod>2025-05-09T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/tags/chegg/</loc>
+    <lastmod>2025-05-12T16:13:43-03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/memes/deployino-fatalino-meme/</loc>
-    <lastmod>2025-05-09T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/tags/google/</loc>
+    <lastmod>2025-05-12T16:13:43-03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2025-05-09T00:00:00+00:00</lastmod>
+    <lastmod>2025-05-12T16:13:43-03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/meme/</loc>
-    <lastmod>2025-05-09T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/tags/meta/</loc>
+    <lastmod>2025-05-12T16:13:43-03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/memes/</loc>
-    <lastmod>2025-05-09T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/tags/openai/</loc>
+    <lastmod>2025-05-12T16:13:43-03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/memes/</loc>
-    <lastmod>2025-05-09T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/tags/perplexity/</loc>
+    <lastmod>2025-05-12T16:13:43-03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2025-05-09T00:00:00+00:00</lastmod>
+    <lastmod>2025-05-12T16:13:43-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/ai-engineer/</loc>
+    <lastmod>2025-05-09T15:10:47-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/deploy/</loc>
+    <lastmod>2025-05-09T15:10:47-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/memes/deployino-fatalino-meme/</loc>
+    <lastmod>2025-05-09T15:10:47-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/meme/</loc>
+    <lastmod>2025-05-09T15:10:47-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/memes/</loc>
+    <lastmod>2025-05-09T15:10:47-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/memes/</loc>
+    <lastmod>2025-05-09T15:10:47-03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/become-an-ai-expert/</loc>
     <lastmod>2025-05-08T20:34:19-03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/career/</loc>
-    <lastmod>2025-05-08T20:34:19-03:00</lastmod>
+    <lastmod>2025-05-09T15:10:47-03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/become-an-ai-expert/ai-engineer-journey/</loc>
     <lastmod>2025-05-08T20:34:19-03:00</lastmod>
@@ -65,23 +89,14 @@
     <loc>http://localhost:1313/tags/ai-chips/</loc>
     <lastmod>2025-05-08T20:34:19-03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/ai-news/</loc>
-    <lastmod>2025-05-08T20:34:19-03:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/ai-llm-news/ai-weekly-may-5-2025/</loc>
-    <lastmod>2025-05-08T20:34:19-03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/ai-llm-news/</loc>
-    <lastmod>2025-05-08T20:34:19-03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/google/</loc>
     <lastmod>2025-05-08T20:34:19-03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/windsurf/</loc>
     <lastmod>2025-05-08T20:34:19-03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/memes/ai-engineer-meme/</loc>
-    <lastmod>2025-05-02T00:00:00+00:00</lastmod>
+    <lastmod>2025-05-09T15:10:47-03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/about/</loc>
     <lastmod>2025-05-01T21:43:43-03:00</lastmod>
@@ -101,16 +116,11 @@
     <loc>http://localhost:1313/tags/llm/</loc>
     <lastmod>2025-05-01T00:42:57-03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/meta/</loc>
-    <lastmod>2025-05-01T00:42:57-03:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/field-log/</loc>
     <lastmod>2025-04-30T01:33:23-03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/inventory/</loc>
     <lastmod>2025-04-30T01:33:23-03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/memes/deployino-fatalino-meme-02/</loc>
   </url><url>
     <loc>http://localhost:1313/posts/</loc>
     <lastmod>2025-05-01T21:43:43-03:00</lastmod>

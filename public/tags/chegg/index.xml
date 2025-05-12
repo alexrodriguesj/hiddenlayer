@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Chegg on Hidden Layer</title>
+    <link>http://localhost:1313/tags/chegg/</link>
+    <description>Recent content in Chegg on Hidden Layer</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 12 May 2025 16:13:43 -0300</lastBuildDate><atom:link href="http://localhost:1313/tags/chegg/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI Weekly – May 12, 2025</title>
+      <link>http://localhost:1313/ai-llm-news/ai-weekly-may-12-2025/</link>
+      <pubDate>Mon, 12 May 2025 16:13:43 -0300</pubDate>
+      
+      <guid>http://localhost:1313/ai-llm-news/ai-weekly-may-12-2025/</guid>
+      <description>
+        
+          
+            &lt;p&gt;This week’s AI roundup highlights the accelerating disruption caused by large language models and autonomous agents—from surging startup valuations to major layoffs and delayed infrastructure bets.&lt;/p&gt;
+&lt;h2 id=&#34;1-perplexity-valued-at-14-billion-in-new-funding-round&#34;&gt;1. Perplexity Valued at $14 Billion in New Funding Round&lt;/h2&gt;
+
+
+
+
+&lt;figure class=&#34;blog-figure&#34;&gt;
+    &lt;img src=&#34;http://localhost:1313/images/ai-weekly-may-12-2025_01.png&#34; alt=&#34;Perplexity&amp;#39;s rising valuation&#34; class=&#34;blog-image&#34; loading=&#34;lazy&#34;&gt;
+    
+&lt;/figure&gt;
+
+&lt;p&gt;AI search startup &lt;strong&gt;Perplexity&lt;/strong&gt; is closing a fresh funding round that values the company at $14 billion—up more than 50% since November 2024. The company is also working on launching its own browser, &lt;strong&gt;Comet&lt;/strong&gt;, which could directly challenge Chrome and Safari.&lt;/p&gt;
+          
+          
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>
