@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>NLP on Hidden Layer</title>
-    <link>http://localhost:1313/tags/nlp/</link>
-    <description>Recent content in NLP on Hidden Layer</description>
+    <title>BERT on Hidden Layer</title>
+    <link>http://localhost:1313/tags/bert/</link>
+    <description>Recent content in BERT on Hidden Layer</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 13 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/nlp/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 13 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/bert/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding</title>
       <link>http://localhost:1313/papers/bert/</link>

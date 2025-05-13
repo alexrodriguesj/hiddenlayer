@@ -6,7 +6,51 @@
     <description>Recent content on Hidden Layer</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 12 May 2025 16:13:43 -0300</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 13 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding</title>
+      <link>http://localhost:1313/papers/bert/</link>
+      <pubDate>Tue, 13 May 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/papers/bert/</guid>
+      <description>
+        
+          
+            &lt;h1 id=&#34;bert&#34;&gt;BERT&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Authors&lt;/strong&gt;: Jacob Devlin, Ming-Wei Chang, Kenton Lee, Kristina Toutanova
+&lt;strong&gt;Publication Date&lt;/strong&gt;: May 24, 2019&lt;br&gt;
+&lt;strong&gt;Published In&lt;/strong&gt;: arXiv&lt;br&gt;
+&lt;strong&gt;Number of Citations&lt;/strong&gt;: Highly cited (exact number varies)
+&lt;strong&gt;Link to Paper&lt;/strong&gt;: &lt;a href=&#34;https://arxiv.org/abs/1810.04805&#34;&gt;arXiv.org/attention&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;table-of-contents&#34;&gt;Table of Contents&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://localhost:1313/papers/bert/#brief-description&#34;&gt;Brief Description&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://localhost:1313/papers/bert/#main-topic&#34;&gt;Main Topic&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://localhost:1313/papers/bert/#key-concepts&#34;&gt;Key Concepts&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://localhost:1313/papers/bert/#1-bidirectional-transformers&#34;&gt;1. Bidirectional Transformers&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://localhost:1313/papers/bert/#2-masked-language-modeling-mlm&#34;&gt;2. Masked Language Modeling (MLM)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://localhost:1313/papers/bert/#3-next-sentence-prediction-nsp&#34;&gt;3. Next Sentence Prediction (NSP)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://localhost:1313/papers/bert/#methodology-and-experiments&#34;&gt;Methodology and Experiments&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://localhost:1313/papers/bert/#references-and-related-work&#34;&gt;References and Related Work&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://localhost:1313/papers/bert/#conclusion-and-takeaways&#34;&gt;Conclusion and Takeaways&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://localhost:1313/papers/bert/#key-takeaways&#34;&gt;Key Takeaways&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://localhost:1313/papers/bert/#why-this-paper-still-matters&#34;&gt;Why This Paper Still Matters&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://localhost:1313/papers/bert/#thanks-for-reading&#34;&gt;Thanks for Reading&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;brief-description&#34;&gt;Brief Description&lt;/h2&gt;
+&lt;p&gt;BERT (Bidirectional Encoder Representations from Transformers) is a language representation model developed by researchers at Google. Unlike previous models, BERT leverages deep bidirectional transformers, capturing context from both directions (left-to-right and right-to-left), significantly enhancing natural language understanding capabilities.&lt;/p&gt;
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>AI Weekly – May 12, 2025</title>
       <link>http://localhost:1313/ai-llm-news/ai-weekly-may-12-2025/</link>
