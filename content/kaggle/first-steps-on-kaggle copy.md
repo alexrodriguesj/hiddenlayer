@@ -5,7 +5,7 @@ draft: false
 description: "We’ll walk through your first real Kaggle challenge using the CRISP-DM methodology to guide the process."  
 categories: ["Kaggle"]
 tags: ["kaggle"]
-readingTime: 20 
+readingTime: 10 
 ---
 
 {{< blog-image src="/images/titanic.png" alt="Titanic Logo" >}}
