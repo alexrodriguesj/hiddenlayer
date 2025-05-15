@@ -18,23 +18,23 @@
           
             &lt;h1 id=&#34;bert&#34;&gt;BERT&lt;/h1&gt;
 &lt;p&gt;&lt;strong&gt;Authors&lt;/strong&gt;: Jacob Devlin, Ming-Wei Chang, Kenton Lee, Kristina Toutanova
-&lt;strong&gt;Publication Date&lt;/strong&gt;: &amp;hellip;&lt;br&gt;
-&lt;strong&gt;Published In&lt;/strong&gt;: &amp;hellip;&lt;br&gt;
-&lt;strong&gt;Number of Citations&lt;/strong&gt;: &amp;hellip;
+&lt;strong&gt;Publication Date&lt;/strong&gt;: May 24, 2019&lt;br&gt;
+&lt;strong&gt;Published In&lt;/strong&gt;: arXiv&lt;br&gt;
+&lt;strong&gt;Number of Citations&lt;/strong&gt;: Highly cited (exact number varies)
 &lt;strong&gt;Link to Paper&lt;/strong&gt;: &lt;a href=&#34;https://arxiv.org/abs/1810.04805&#34;&gt;arXiv.org/attention&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;table-of-contents&#34;&gt;Table of Contents&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://localhost:1313/papers/bert/#brief-description&#34;&gt;Brief Description&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://localhost:1313/papers/bert/#main-topic&#34;&gt;Main Topic&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://localhost:1313/papers/bert/#key-concepts&#34;&gt;Key Concepts&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://localhost:1313/papers/bert/#methodology-and-experiments&#34;&gt;Methodology and Experiments&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://localhost:1313/papers/bert/#results-and-practical-impact&#34;&gt;Results and Practical Impact&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://localhost:1313/papers/bert/#limitations&#34;&gt;Limitations&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://localhost:1313/papers/bert/#references-and-related-work&#34;&gt;References and Related Work&lt;/a&gt;
+&lt;li&gt;&lt;a href=&#34;http://localhost:1313/papers/bert/#key-concepts&#34;&gt;Key Concepts&lt;/a&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://localhost:1313/papers/bert/#core-references-cited-by-authors&#34;&gt;Core References&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://localhost:1313/papers/bert/#1-bidirectional-transformers&#34;&gt;1. Bidirectional Transformers&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://localhost:1313/papers/bert/#2-masked-language-modeling-mlm&#34;&gt;2. Masked Language Modeling (MLM)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://localhost:1313/papers/bert/#3-next-sentence-prediction-nsp&#34;&gt;3. Next Sentence Prediction (NSP)&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://localhost:1313/papers/bert/#methodology-and-experiments&#34;&gt;Methodology and Experiments&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://localhost:1313/papers/bert/#references-and-related-work&#34;&gt;References and Related Work&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://localhost:1313/papers/bert/#conclusion-and-takeaways&#34;&gt;Conclusion and Takeaways&lt;/a&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://localhost:1313/papers/bert/#key-takeaways&#34;&gt;Key Takeaways&lt;/a&gt;&lt;/li&gt;

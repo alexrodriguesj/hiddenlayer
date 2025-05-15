@@ -2,6 +2,7 @@
 baseURL = "https://hiddenlayer.tech"
 title = "Hidden Layer"
 theme = "hugo-clarity"
+ga_analytics = "G-H67FNZTVPB"
 defaultContentLanguage = "en"
 enableRobotsTXT = true
 enableEmoji = true
@@ -16,7 +17,6 @@ enableGitInfo = true
 # Theme parameters
 [params]
 author = "Alex Rodrigues"
-ga_analytics = "G-H67FNZTVPB"
 twitter = ""
 largeTwitterCard = false
 introDescription = "Tech enthusiast, software developer, and AI researcher. Sharing insights about technology, programming, and artificial intelligence."
