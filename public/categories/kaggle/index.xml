@@ -6,7 +6,29 @@
     <description>Recent content in Kaggle on Hidden Layer</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 07 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/kaggle/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 14 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/kaggle/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Your First Kaggle Challenge: CRISP-DM in Action</title>
+      <link>http://localhost:1313/kaggle/second-step-on-kaggle/</link>
+      <pubDate>Wed, 14 May 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/kaggle/second-step-on-kaggle/</guid>
+      <description>
+        
+          
+            &lt;figure class=&#34;blog-figure&#34;&gt;
+    &lt;img src=&#34;http://localhost:1313/images/titanic.png&#34; alt=&#34;Titanic Logo&#34; class=&#34;blog-image&#34; loading=&#34;lazy&#34;&gt;
+    
+&lt;/figure&gt;
+
+&lt;p&gt;Welcome to our &lt;strong&gt;Kaggle journey&lt;/strong&gt;! If you&amp;rsquo;re curious about AI and machine learning but feel a bit overwhelmed, you&amp;rsquo;re in the right place. Think of Kaggle as your friendly neighborhood playground for data science: a place where you can learn, experiment, and grow alongside a supportive community.&lt;/p&gt;
+&lt;p&gt;This is the second step, if you&amp;rsquo;re following along, you should have already completed the first step, which is to &lt;a href=&#34;https://www.kaggle.com/account/login&#34;&gt;First Steps on Kaggle: a friendly guide to getting started with Practical AI&lt;/a&gt;.&lt;/p&gt;
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>First Steps on Kaggle: a friendly guide to getting started with Practical AI</title>
       <link>http://localhost:1313/kaggle/first-steps-on-kaggle/</link>

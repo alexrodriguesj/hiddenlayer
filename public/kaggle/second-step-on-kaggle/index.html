@@ -1,0 +1,336 @@
+
+<!DOCTYPE html>
+<html
+  lang="en"
+  data-figures=""
+  
+    class="page"
+  
+  
+  >
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<title>Your First Kaggle Challenge: CRISP-DM in Action | Hidden Layer</title>
+<meta charset="utf-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+
+<meta property="og:locale" content="en" />
+
+<meta property="og:type" content="article">
+<meta name="description" content="We’ll walk through your first real Kaggle challenge using the CRISP-DM methodology to guide the process." />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:creator" content="">
+<meta name="twitter:title" content="Your First Kaggle Challenge: CRISP-DM in Action" />
+<meta name="twitter:image" content="http://localhost:1313/images/thumbnail.png"/>
+<meta property="og:url" content="http://localhost:1313/kaggle/second-step-on-kaggle/" />
+<meta property="og:title" content="Your First Kaggle Challenge: CRISP-DM in Action" />
+<meta property="og:description" content="We’ll walk through your first real Kaggle challenge using the CRISP-DM methodology to guide the process." />
+<meta property="og:image" content="http://localhost:1313/images/thumbnail.png" />
+  <meta name="keywords" content="kaggle" />
+
+<link rel="apple-touch-icon" sizes="180x180" href="http://localhost:1313/icons/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/icons/favicon-32x32.png">
+<link rel="manifest" href="http://localhost:1313/icons/site.webmanifest">
+
+<link rel="canonical" href="http://localhost:1313/kaggle/second-step-on-kaggle/">
+
+
+
+<link rel="preload" href="http://localhost:1313/css/styles.23dd246286c21f2bd61fb973ba40c1e8b0229e7a8cf702d70eb19201eaece52ba3a40872ea6a4fc1ad01d69edd9df738e47c66197e167a764751b4be0eee4839.css" integrity = "sha512-I90kYobCHyvWH7lzukDB6LAinnqM9wLXDrGSAers5SujpAhy6mpPwa0B1p7dnfc45HxmGX4WenZHUbS&#43;Du5IOQ==" as="style" crossorigin="anonymous">
+
+
+
+<link rel="preload" href="http://localhost:1313/en/js/bundle.f4784322fe9a36badac56e7c4e71889bda2d26e4d12126d0b837381f0ee14b5ee495592d46cdd3a2c56006e4b3d714d1b51b08c04b31f8a39b32bda77fc2b5ba.js" as="script" integrity=
+"sha512-9HhDIv6aNrraxW58TnGIm9otJuTRISbQuDc4Hw7hS17klVktRs3TosVgBuSz1xTRtRsIwEsx&#43;KObMr2nf8K1ug==" crossorigin="anonymous">
+
+
+<link rel="stylesheet" type="text/css" href="http://localhost:1313/css/styles.23dd246286c21f2bd61fb973ba40c1e8b0229e7a8cf702d70eb19201eaece52ba3a40872ea6a4fc1ad01d69edd9df738e47c66197e167a764751b4be0eee4839.css" integrity="sha512-I90kYobCHyvWH7lzukDB6LAinnqM9wLXDrGSAers5SujpAhy6mpPwa0B1p7dnfc45HxmGX4WenZHUbS&#43;Du5IOQ==" crossorigin="anonymous">
+<link rel="stylesheet" href="/css/custom.css">
+  </head>
+  <body
+    data-code="7"
+    data-lines="false"
+    id="documentTop"
+    data-lang="en"
+  >
+
+<header class="nav_header" >
+  <nav class="nav">
+<a class="nav_logo" href="http://localhost:1313/">
+  <img src="/images/logo_light.png" alt="Hidden Layer" class="logo light-mode-logo">
+  <img src="/images/logo_dark.png" alt="Hidden Layer" class="logo dark-mode-logo">
+</a>
+
+    <div class='nav_body nav_body_left'>
+      
+      
+      
+        
+
+  <div class="nav_parent">
+    <a href="http://localhost:1313/about/" class="nav_item" title="About">About </a>
+  </div>
+  <div class="nav_parent">
+    <a href="http://localhost:1313/become-an-ai-expert/" class="nav_item" title="Become an AI Expert">Become an AI Expert </a>
+  </div>
+  <div class="nav_parent">
+    <a href="http://localhost:1313/ai-llm-news/" class="nav_item" title="AI &amp; LLM News">AI &amp; LLM News </a>
+  </div>
+  <div class="nav_parent">
+    <a href="http://localhost:1313/kaggle/" class="nav_item" title="Kaggle">Kaggle </a>
+  </div>
+  <div class="nav_parent">
+    <a href="http://localhost:1313/papers/" class="nav_item" title="Papers">Papers </a>
+  </div>
+  <div class="nav_parent">
+    <a href="http://localhost:1313/memes/" class="nav_item" title="Memes">Memes </a>
+  </div>
+      
+      <div class="nav_right">
+        <div class="nav_social">
+          <a href="https://github.com/alexrodriguesj" target="_blank" rel="noopener noreferrer" class="social-btn" title="GitHub">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+              <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/>
+            </svg>
+          </a>
+          <a href="https://www.linkedin.com/in/alexcrj/" target="_blank" rel="noopener noreferrer" class="social-btn" title="LinkedIn">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+              <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+            </svg>
+          </a>
+          <a href="https://medium.com/@alexrodriguesj" target="_blank" rel="noopener noreferrer" class="social-btn" title="Medium">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+              <path d="M13.54 12a6.8 6.8 0 01-6.77 6.82A6.8 6.8 0 010 12a6.8 6.8 0 016.77-6.82A6.8 6.8 0 0113.54 12zM20.96 12c0 3.54-1.51 6.42-3.38 6.42-1.87 0-3.39-2.88-3.39-6.42s1.52-6.42 3.39-6.42 3.38 2.88 3.38 6.42M24 12c0 3.17-.53 5.75-1.19 5.75-.66 0-1.19-2.58-1.19-5.75s.53-5.75 1.19-5.75C23.47 6.25 24 8.83 24 12z"/>
+            </svg>
+          </a>
+        </div>
+<div class="color_mode">
+  <input type="checkbox" class="color_choice" id="mode">
+</div>
+
+      </div>
+    </div>
+  </nav>
+</header>
+
+    <main>
+  <div class="wrap">
+    <div class="content">
+      
+<title>Your First Kaggle Challenge: CRISP-DM in Action | Hidden Layer</title>
+<meta charset="utf-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+
+<meta property="og:locale" content="en" />
+
+<meta property="og:type" content="article">
+<meta name="description" content="We’ll walk through your first real Kaggle challenge using the CRISP-DM methodology to guide the process." />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:creator" content="">
+<meta name="twitter:title" content="Your First Kaggle Challenge: CRISP-DM in Action" />
+<meta name="twitter:image" content="http://localhost:1313/images/thumbnail.png"/>
+<meta property="og:url" content="http://localhost:1313/kaggle/second-step-on-kaggle/" />
+<meta property="og:title" content="Your First Kaggle Challenge: CRISP-DM in Action" />
+<meta property="og:description" content="We’ll walk through your first real Kaggle challenge using the CRISP-DM methodology to guide the process." />
+<meta property="og:image" content="http://localhost:1313/images/thumbnail.png" />
+  <meta name="keywords" content="kaggle" />
+
+<link rel="apple-touch-icon" sizes="180x180" href="http://localhost:1313/icons/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/icons/favicon-32x32.png">
+<link rel="manifest" href="http://localhost:1313/icons/site.webmanifest">
+
+<link rel="canonical" href="http://localhost:1313/kaggle/second-step-on-kaggle/">
+
+
+
+<link rel="preload" href="http://localhost:1313/css/styles.23dd246286c21f2bd61fb973ba40c1e8b0229e7a8cf702d70eb19201eaece52ba3a40872ea6a4fc1ad01d69edd9df738e47c66197e167a764751b4be0eee4839.css" integrity = "sha512-I90kYobCHyvWH7lzukDB6LAinnqM9wLXDrGSAers5SujpAhy6mpPwa0B1p7dnfc45HxmGX4WenZHUbS&#43;Du5IOQ==" as="style" crossorigin="anonymous">
+
+
+
+<link rel="preload" href="http://localhost:1313/en/js/bundle.f4784322fe9a36badac56e7c4e71889bda2d26e4d12126d0b837381f0ee14b5ee495592d46cdd3a2c56006e4b3d714d1b51b08c04b31f8a39b32bda77fc2b5ba.js" as="script" integrity=
+"sha512-9HhDIv6aNrraxW58TnGIm9otJuTRISbQuDc4Hw7hS17klVktRs3TosVgBuSz1xTRtRsIwEsx&#43;KObMr2nf8K1ug==" crossorigin="anonymous">
+
+
+<link rel="stylesheet" type="text/css" href="http://localhost:1313/css/styles.23dd246286c21f2bd61fb973ba40c1e8b0229e7a8cf702d70eb19201eaece52ba3a40872ea6a4fc1ad01d69edd9df738e47c66197e167a764751b4be0eee4839.css" integrity="sha512-I90kYobCHyvWH7lzukDB6LAinnqM9wLXDrGSAers5SujpAhy6mpPwa0B1p7dnfc45HxmGX4WenZHUbS&#43;Du5IOQ==" crossorigin="anonymous">
+<link rel="stylesheet" href="/css/custom.css">
+      <article class="post">
+        <h1 class="post_title">Your First Kaggle Challenge: CRISP-DM in Action</h1>
+        
+
+<div class="post_meta">
+  <span>May 14, 2025</span>
+  
+    <span>· 10 min read</span>
+  
+  
+    <span>·</span>
+    <span class="post_tags">
+      
+        <a href='http://localhost:1313/tags/kaggle'>kaggle</a>
+      
+    </span>
+  
+  <span>·</span>
+  
+
+
+
+<div class="share">
+  <ul>
+    <li>
+      <a href="https://twitter.com/intent/tweet?url=http%3a%2f%2flocalhost%3a1313%2fkaggle%2fsecond-step-on-kaggle%2f&text=Your%20First%20Kaggle%20Challenge%3a%20CRISP-DM%20in%20Action" target="_blank" rel="noopener noreferrer" class="share-btn twitter" title="Share on X (Twitter)">
+        <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+          <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+        </svg>
+        <span class="screen-reader-text">Share on X (Twitter)</span>
+      </a>
+    </li>
+    <li>
+      <a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3a%2f%2flocalhost%3a1313%2fkaggle%2fsecond-step-on-kaggle%2f&title=Your%20First%20Kaggle%20Challenge%3a%20CRISP-DM%20in%20Action" target="_blank" rel="noopener noreferrer" class="share-btn linkedin" title="Share on LinkedIn">
+        <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+          <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+        </svg>
+        <span class="screen-reader-text">Share on LinkedIn</span>
+      </a>
+    </li>
+    <li>
+      <a href="https://www.facebook.com/sharer/sharer.php?u=http%3a%2f%2flocalhost%3a1313%2fkaggle%2fsecond-step-on-kaggle%2f" target="_blank" rel="noopener noreferrer" class="share-btn facebook" title="Share on Facebook">
+        <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+          <path d="M9.101 23.691v-7.98H6.627v-3.667h2.474v-1.58c0-4.085 1.848-5.978 5.858-5.978.401 0 .955.042 1.468.103a8.68 8.68 0 0 1 1.141.195v3.325a8.623 8.623 0 0 0-.653-.036 26.805 26.805 0 0 0-.733-.009c-.707 0-1.259.096-1.675.309a1.686 1.686 0 0 0-.679.622c-.258.42-.374.995-.374 1.752v1.297h3.919l-.386 2.103-.287 1.564h-3.246v8.245C19.396 23.238 24 18.179 24 12.044c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.628 3.874 10.35 9.101 11.647Z"/>
+        </svg>
+        <span class="screen-reader-text">Share on Facebook</span>
+      </a>
+    </li>
+  </ul>
+</div>
+
+</div>
+
+        
+
+
+
+<figure class="blog-figure">
+    <img src="/images/titanic.png" alt="Titanic Logo" class="blog-image" loading="lazy">
+    
+</figure>
+
+<p>Welcome to our <strong>Kaggle journey</strong>! If you&rsquo;re curious about AI and machine learning but feel a bit overwhelmed, you&rsquo;re in the right place. Think of Kaggle as your friendly neighborhood playground for data science: a place where you can learn, experiment, and grow alongside a supportive community.</p>
+<p>This is the second step, if you&rsquo;re following along, you should have already completed the first step, which is to <a href="https://www.kaggle.com/account/login">First Steps on Kaggle: a friendly guide to getting started with Practical AI</a>.</p>
+<hr>
+<h2 id="choosing-your-first-challenge">Choosing Your First Challenge</h2>
+<p>Selecting your first Kaggle competition can feel like standing in front of a buffet: there are so many tempting options, but not all are beginner-friendly. For our journey, we’re starting with the classic <a href="https://www.kaggle.com/competitions/titanic"><strong>Titanic – Machine Learning from Disaster</strong></a> challenge. It’s simple enough to be approachable, yet rich enough to teach you the fundamentals of a complete ML workflow. With a clearly defined binary classification task (predicting survival), clean structured data, and countless public notebooks for reference, it’s the perfect playground to apply the CRISP-DM methodology in practice.</p>
+<h3 id="criteria-to-select-a-beginner-friendly-competition">Criteria to Select a Beginner-Friendly Competition</h3>
+<p>When you&rsquo;re just starting out, the ideal competition should have a well-defined problem, a small and clean dataset, and plenty of community support. Look for challenges that don&rsquo;t require external data or complex preprocessing pipelines, structured tabular datasets are best. Public notebooks, discussion forums, and a leaderboard with many first-time participants are also strong indicators. The goal is to learn the end-to-end process, not to build the most accurate model right away, so clarity, simplicity, and learning resources matter far more than prize money or prestige.</p>
+<h3 id="why-we-chose-titanic--machine-learning-from-disaster">Why We Chose: Titanic – Machine Learning from Disaster</h3>
+<p>The Titanic challenge is practically a rite of passage for data science newcomers and for good reason. It presents a clear objective (predicting passenger survival), uses a manageable tabular dataset, and avoids the need for advanced techniques or heavy computation. More importantly, it has a massive library of public notebooks and tutorials to guide you. By choosing Titanic, we’re not just learning machine learning, we’re joining a shared learning experience embraced by thousands of beginners around the world.</p>
+<h3 id="quick-overview-of-the-dataset-and-problem">Quick overview of the dataset and problem</h3>
+<p>The Titanic dataset contains information about passengers aboard the RMS Titanic, including features like name, age, gender, ticket class, fare paid, and whether they survived. The goal is to build a model that predicts survival (1 or 0) based on these attributes. This is a binary classification problem, and the dataset is split into a training set (with known outcomes) and a test set (where you must predict outcomes). Despite its simplicity, the dataset introduces essential machine learning concepts like missing values, categorical encoding, feature engineering, and model evaluation, making it the perfect sandbox to learn and experiment.</p>
+<hr>
+
+
+
+
+<figure class="blog-figure">
+    <img src="/images/crisp_dm.png" alt="CRISP-DM" class="blog-image" loading="lazy">
+    
+</figure>
+
+<h2 id="introducing-crisp-dm">Introducing CRISP-DM</h2>
+<p>Before diving into code, it&rsquo;s essential to understand how real-world data science projects are structured, and that&rsquo;s where <strong>CRISP-DM</strong> comes in. Short for <em>Cross Industry Standard Process for Data Mining</em>, CRISP-DM is a tried-and-true methodology that guides you through the lifecycle of a data project. It consists of six phases: Business Understanding, Data Understanding, Data Preparation, Modeling, Evaluation, and Deployment. Unlike Kaggle competitions, where the “deployment” phase is usually skipped, following this framework builds habits that are critical for applied AI work in production settings.</p>
+<p>We’ll use CRISP-DM as our north star throughout this series. It helps break down the problem into manageable steps, ensures we don’t jump straight into modeling, and encourages a deeper understanding of the data and goals. As you practice this flow with the Titanic challenge, you’ll develop a professional mindset, thinking beyond just accuracy and focusing on process, reproducibility, and clarity. In future competitions (and in real jobs), that mindset will be what sets you apart.</p>
+<h3 id="what-is-crisp-dm-and-why-it-matters">What is CRISP-DM and Why It Matters</h3>
+<p>CRISP-DM (Cross Industry Standard Process for Data Mining) is a structured approach to solving data problems, widely used in industry for its clarity and flexibility. It outlines six essential phases, from understanding the business problem to preparing the data, building models, and evaluating results. Unlike ad-hoc experimentation, CRISP-DM encourages a disciplined and iterative workflow, helping you avoid common beginner mistakes like jumping into modeling without understanding the context or the data. By following CRISP-DM, you’ll learn to think like a real AI practitioner, not just a competition participant.</p>
+<h3 id="the-6-phases-of-crisp-dm">The 6 phases of CRISP-DM</h3>
+<ul>
+<li>
+<ol>
+<li><strong>Business Understanding</strong> – Define the objective from a business perspective and translate it into a data science problem.</li>
+</ol>
+</li>
+<li>
+<ol start="2">
+<li><strong>Data Understanding</strong> – Collect the data, explore it, and identify quality issues, patterns, or anomalies.</li>
+</ol>
+</li>
+<li>
+<ol start="3">
+<li><strong>Data Preparation</strong> – Clean, transform, and organize the data into a format suitable for modeling. This often takes the most time.</li>
+</ol>
+</li>
+<li>
+<ol start="4">
+<li><strong>Modeling</strong> – Apply machine learning algorithms, tune hyperparameters, and train models to address the problem.</li>
+</ol>
+</li>
+<li>
+<ol start="5">
+<li><strong>Evaluation</strong> – Assess whether the model meets the business objectives, not just technical metrics like accuracy or AUC.</li>
+</ol>
+</li>
+<li>
+<ol start="6">
+<li><strong>Deployment</strong> – In a real-world setting, this means putting the model into production. On Kaggle, it usually means generating and submitting predictions.</li>
+</ol>
+</li>
+</ul>
+<h3 id="how-well-apply-crisp-dm-to-this-challenge">How we’ll apply CRISP-DM to this challenge</h3>
+<p>We’ll treat the <strong>Titanic challenge</strong> as if it were a real-world project, using CRISP-DM to guide each step. Starting with <strong>Business Understanding</strong>, we’ll explore the core objective: predicting passenger survival. While it may seem simple, we’ll treat it as if a client or stakeholder needed this model for decision-making, pushing us to think about the impact of false positives, fairness across groups, and clarity of results. This mindset helps move beyond &ldquo;just getting a good score&rdquo; toward building responsible and explainable models.</p>
+<p>Next, we’ll move through <strong>Data Understanding</strong> and <strong>Data Preparation</strong>, taking time to analyze missing values, detect outliers, and engineer meaningful features, like combining titles from names or grouping passengers by family size. Once the dataset is in good shape, we’ll jump into <strong>Modeling</strong>, trying out different classifiers and validating results with cross-validation. We’ll wrap up with <strong>Evaluation</strong>, asking: does our model actually make sense? And finally, although we won’t deploy in a production system, we’ll simulate that step by creating clean, reproducible code and submitting predictions on Kaggle, reinforcing habits that scale to real-world AI engineering.</p>
+<hr>
+<h2 id="phase-1-business-understanding">Phase 1: Business Understanding</h2>
+<p>At first glance, the Titanic competition might seem like a simple technical exercise — but behind every machine learning task lies a business question. In this case, imagine you&rsquo;re working for a historical research organization or a company building educational simulations. They want to understand what factors influenced survival aboard the Titanic, and whether those patterns can be predicted with data. Our mission is to create a model that estimates the probability of survival for each passenger, using features like age, class, gender, and ticket information. But beyond raw prediction, we must consider interpretability: <strong>what insights can stakeholders draw from the model?</strong> Treating this phase seriously helps you align your technical work with real goals, which is what separates a good data scientist from a great AI engineer.</p>
+<h3 id="whats-the-goal-of-the-competition">What’s the goal of the competition?</h3>
+<p>The primary goal of the Titanic competition is to build a predictive model that determines whether a passenger survived or not, based on a set of features like age, gender, ticket class, and family connections. This is a <strong>binary classification</strong> task, where the outcome is either 0 (did not survive) or 1 (survived). While the competition score is based on accuracy, the deeper objective is to practice the full data science pipeline, understanding the problem, cleaning data, engineering features, training models, and generating predictions, all while learning how to reason like a real-world practitioner.</p>
+<h3 id="what-would-success-look-like-in-a-real-world-setting">What would success look like in a real-world setting?</h3>
+<p>In a real-world context, success wouldn&rsquo;t just mean high accuracy on a leaderboard — it would mean delivering insights that are actionable, explainable, and ethically sound. For example, if this model were used in a historical analysis or an educational tool, success would include clearly showing which factors most influenced survival (like gender, age, or ticket class) and doing so in a way that&rsquo;s accessible to non-technical audiences. Moreover, a successful project would emphasize fairness and avoid misleading conclusions, such as overgeneralizing from biased or incomplete data. Ultimately, success means bridging the gap between technical results and meaningful impact.</p>
+<hr>
+<h2 id="phase-2-data-understanding">Phase 2: Data Understanding</h2>
+<p>Now that we’ve defined the problem, it’s time to get hands-on with the data. This phase is all about exploration — understanding what’s available, identifying potential issues, and forming initial hypotheses. The Titanic dataset includes two files: <code>train.csv</code> (with known outcomes) and <code>test.csv</code> (where we must predict survival). Key columns include <code>Pclass</code> (ticket class), <code>Sex</code>, <code>Age</code>, <code>Fare</code>, <code>SibSp</code> (siblings/spouses aboard), and <code>Embarked</code> (port of boarding), among others.</p>
+<p>During this stage, we’ll look at distributions, correlations, and missing values. For example, we might notice that <code>Age</code> and <code>Cabin</code> contain many nulls, or that survival rates differ significantly between male and female passengers. We’ll also begin to spot possible feature interactions — such as how class and gender together might influence survival odds. This is the detective phase of the project, and the better we understand the data here, the smarter our modeling decisions will be later.</p>
+<h3 id="first-look-at-the-dataset">First look at the dataset</h3>
+<p>The Titanic dataset is a structured CSV file with rows representing individual passengers and columns capturing different attributes. At a glance, we find columns like <code>PassengerId</code>, <code>Survived</code>, <code>Pclass</code>, <code>Name</code>, <code>Sex</code>, <code>Age</code>, <code>SibSp</code>, <code>Parch</code>, <code>Ticket</code>, <code>Fare</code>, <code>Cabin</code>, and <code>Embarked</code>. Some features are numeric (like <code>Age</code> and <code>Fare</code>), while others are categorical (like <code>Sex</code> and <code>Embarked</code>). The <code>Survived</code> column, present only in the training set, is our target variable.</p>
+<p>Even at this early stage, we can already spot hints of structure and imbalance, for instance, fewer survivors than non-survivors, or certain columns with many missing values. This initial glance helps us sketch a roadmap for deeper exploration and guides the questions we’ll ask next during EDA.</p>
+<h3 id="exploratory-data-analysis-eda-basics">Exploratory Data Analysis (EDA) Basics</h3>
+<p>EDA is the process of diving deeper into the dataset to uncover patterns, spot anomalies, and develop intuition. In the Titanic challenge, this means visualizing survival rates across different groups — for example, comparing male vs. female passengers, or survival by ticket class (<code>Pclass</code>). Tools like histograms, box plots, and heatmaps can help us understand distributions, detect outliers, and observe correlations between variables.</p>
+<p>We’ll also look for missing values (like in <code>Age</code> and <code>Cabin</code>), assess feature importance, and begin forming hypotheses — such as “women and children were more likely to survive” or “higher class passengers had better chances.” EDA isn’t just about pretty plots, it’s about asking questions, spotting clues, and building the foundation for effective feature engineering and modeling.</p>
+<h3 id="identifying-potential-issues-early-nulls-types-outliers">Identifying potential issues early (nulls, types, outliers)</h3>
+<p>Before we can model anything, we need to understand the messiness of the data. The Titanic dataset presents several common issues: missing values, like Age (which is missing for about 20% of passengers) and Cabin (which is missing for most); inconsistent types, such as categorical variables stored as strings (Sex, Embarked) that need to be encoded; and potential outliers, like unusually high fares or passengers with strange family size combinations.</p>
+<p>Catching these early helps prevent silent failures later. For instance, leaving missing Age values untreated can bias the model, and not encoding Sex properly can break certain algorithms. By documenting and planning how to handle these problems now, through imputation, encoding, or removal, we set ourselves up for a much smoother modeling phase.</p>
+<hr>
+<h2 id="whats-next">What’s Next</h2>
+<p>In the next session, we’ll move from understanding the data to preparing it for modeling. This means rolling up our sleeves and writing code, starting with handling missing values, encoding categorical variables, and creating new features that capture useful patterns (like family size or passenger title). We’ll also build simple visualizations to validate our assumptions and ensure our dataset is clean and ready.</p>
+<p>By the end of the next step, you’ll have a solid, structured dataset and the confidence to begin experimenting with your first machine learning models. So get your notebook ready, it’s time to go from exploration to execution!</p>
+<h3 id="well-move-to-data-preparation-and-modeling-in-the-next-post">We&rsquo;ll Move to Data Preparation and Modeling in the Next Post</h3>
+<p>Now that we’ve explored and understood the dataset, the next logical step is to prepare it for modeling. In the upcoming post, we’ll cover data cleaning, feature engineering, and how to structure the dataset for training a machine learning model. You’ll learn how to handle null values, convert categories into numbers, create meaningful new features, and avoid common pitfalls that can silently degrade model performance.</p>
+<p>Once the data is ready, we’ll walk through building your first baseline models using scikit-learn, setting up validation strategies, and interpreting initial results. It’s where the theory starts turning into practical, hands-on ML.</p>
+<p><strong>Let&rsquo;s enhance the future of AI together!</strong></p>
+
+      </article>
+    </div>
+  </div>
+
+    </main><svg width="0" height="0" class="hidden">
+  <symbol viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" id="github">
+    <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/>
+  </symbol>
+  <symbol viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" id="linkedin">
+    <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+  </symbol>
+  <symbol viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" id="medium">
+    <path d="M13.54 12a6.8 6.8 0 01-6.77 6.82A6.8 6.8 0 010 12a6.8 6.8 0 016.77-6.82A6.8 6.8 0 0113.54 12zM20.96 12c0 3.54-1.51 6.42-3.38 6.42-1.87 0-3.39-2.88-3.39-6.42s1.52-6.42 3.39-6.42 3.38 2.88 3.38 6.42M24 12c0 3.17-.53 5.75-1.19 5.75-.66 0-1.19-2.58-1.19-5.75s.53-5.75 1.19-5.75C23.47 6.25 24 8.83 24 12z"/>
+  </symbol>
+</svg>
+
+
+<script type="text/javascript" src="http://localhost:1313/en/js/bundle.f4784322fe9a36badac56e7c4e71889bda2d26e4d12126d0b837381f0ee14b5ee495592d46cdd3a2c56006e4b3d714d1b51b08c04b31f8a39b32bda77fc2b5ba.js" integrity="sha512-9HhDIv6aNrraxW58TnGIm9otJuTRISbQuDc4Hw7hS17klVktRs3TosVgBuSz1xTRtRsIwEsx&#43;KObMr2nf8K1ug==" crossorigin="anonymous"></script>
+
+  <script src="http://localhost:1313/js/search.min.9d5e38dcb73906849f3712f1758a587e9829a568aa586eae69d7684f6829a46c0084632567291f21ea3ee4a6b14ff0d9e1e6b2a4df73f2e419f4b5e0c30a4f04.js"></script>
+<script type="text/javascript" src="/js/custom.js"></script>
+  </body>
+</html>

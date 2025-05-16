@@ -2,16 +2,46 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/tags/ai-engineer/</loc>
+    <lastmod>2025-05-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/career/</loc>
+    <lastmod>2025-05-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/</loc>
+    <lastmod>2025-05-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2025-05-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/llm/</loc>
+    <lastmod>2025-05-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/meme/</loc>
+    <lastmod>2025-05-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/memes/</loc>
+    <lastmod>2025-05-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2025-05-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/memes/ai-engineer-meme_03/</loc>
+    <lastmod>2025-05-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/kaggle/</loc>
+    <lastmod>2025-05-15T00:22:52-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/kaggle/</loc>
+    <lastmod>2025-05-15T00:22:52-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/kaggle/second-step-on-kaggle/</loc>
+    <lastmod>2025-05-15T00:22:52-03:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/tags/bert/</loc>
     <lastmod>2025-05-13T16:50:31-03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/papers/bert/</loc>
-    <lastmod>2025-05-13T16:50:31-03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2025-05-13T16:50:31-03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/</loc>
     <lastmod>2025-05-13T16:50:31-03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/nlp/</loc>
@@ -23,9 +53,6 @@
     <loc>http://localhost:1313/tags/research-paper/</loc>
     <lastmod>2025-05-13T16:50:31-03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2025-05-13T16:50:31-03:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/tags/ai-news/</loc>
     <lastmod>2025-05-12T16:46:45-03:00</lastmod>
   </url><url>
@@ -35,19 +62,10 @@
     <loc>http://localhost:1313/categories/ai-llm-news/</loc>
     <lastmod>2025-05-12T16:46:45-03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/ai-engineer/</loc>
-    <lastmod>2025-05-09T15:10:47-03:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/tags/deploy/</loc>
     <lastmod>2025-05-09T15:10:47-03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/memes/deployino-fatalino-meme/</loc>
-    <lastmod>2025-05-09T15:10:47-03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/meme/</loc>
-    <lastmod>2025-05-09T15:10:47-03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/memes/</loc>
     <lastmod>2025-05-09T15:10:47-03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/memes/</loc>
@@ -56,19 +74,10 @@
     <loc>http://localhost:1313/categories/become-an-ai-expert/</loc>
     <lastmod>2025-05-08T20:34:19-03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/career/</loc>
-    <lastmod>2025-05-09T15:10:47-03:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/become-an-ai-expert/ai-engineer-journey/</loc>
     <lastmod>2025-05-08T20:34:19-03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/kaggle/first-steps-on-kaggle/</loc>
-    <lastmod>2025-05-07T16:17:30-03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/kaggle/</loc>
-    <lastmod>2025-05-07T16:17:30-03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/kaggle/</loc>
     <lastmod>2025-05-07T16:17:30-03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/attention/</loc>
@@ -108,9 +117,6 @@
     <lastmod>2025-05-01T00:42:57-03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/intro/</loc>
-    <lastmod>2025-05-01T00:42:57-03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/llm/</loc>
     <lastmod>2025-05-01T00:42:57-03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/meta/</loc>
