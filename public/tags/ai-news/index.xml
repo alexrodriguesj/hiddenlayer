@@ -6,7 +6,34 @@
     <description>Recent content in AI News on Hidden Layer</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 23 Jun 2025 08:00:00 -0300</lastBuildDate><atom:link href="http://localhost:1313/tags/ai-news/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 14 Jul 2025 08:00:00 -0300</lastBuildDate><atom:link href="http://localhost:1313/tags/ai-news/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI Weekly – July 14, 2025</title>
+      <link>http://localhost:1313/ai-llm-news/ai-weekly-jul-14-2025/</link>
+      <pubDate>Mon, 14 Jul 2025 08:00:00 -0300</pubDate>
+      
+      <guid>http://localhost:1313/ai-llm-news/ai-weekly-jul-14-2025/</guid>
+      <description>
+        
+          
+            &lt;p&gt;This week’s AI landscape spans major government bets, tech disruption, and regulatory evolution—marking a critical moment for AI’s future.&lt;/p&gt;
+&lt;h2 id=&#34;1-xai--openai-land-200m-dod-contracts&#34;&gt;1. xAI &amp;amp; OpenAI Land $200 M DoD Contracts&lt;/h2&gt;
+
+
+
+
+&lt;figure class=&#34;blog-figure&#34;&gt;
+    &lt;img src=&#34;http://localhost:1313/images/ai-weekly-july-14-2025_01.png&#34; alt=&#34;DoD AI contracts&#34; class=&#34;blog-image&#34; loading=&#34;lazy&#34;&gt;
+    
+&lt;/figure&gt;
+
+&lt;p&gt;Elon Musk’s &lt;strong&gt;xAI&lt;/strong&gt; and &lt;strong&gt;OpenAI&lt;/strong&gt; have each been awarded up to $200 million contracts by the U.S. Department of Defense to develop agentic AI tools across military, intelligence, and federal use cases. xAI’s “Grok for Government” suite, featuring its Grok 4 model, joins similar deals with Google and Anthropic :contentReference[oaicite:1]{index=1}.&lt;/p&gt;
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>AI Weekly – June 23, 2025</title>
       <link>http://localhost:1313/ai-llm-news/ai-weekly-jun-23-2025/</link>
